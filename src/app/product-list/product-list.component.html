@@ -1,0 +1,17 @@
+<p>product-list works!</p>
+<table class="table">
+
+    <thead="dark">
+        <tr>
+            <th>userId</th>
+            <th>id</th>
+            <th>title</th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let product of products">
+                    <td>{{product.userId}}</td>
+                    <td>{{product.id}}</td>
+                    <td>{{product.title}}</td>
+                </tr>
+            </tbody>
+</table>
